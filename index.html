@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Bookshelf</h1>
+    <label for="title">Judul:</label>
+    <input type="text" id="title" placeholder="Masukkan judulnya" />
+    <br /><br />
+    <label for="author">Author:</label>
+    <input type="text" id="author" placeholder="Masukkan author" />
+    <br /><br />
+    <label for="isFinished">Is Finished:</label>
+    <div id="isFinishedTombol">
+      <input type="checkbox" id="isFinished" />
+    </div>
+    <button onclick="addBook()">Add Book</button>
+    <br /><br />
+
+
+    <h2>Belum Selesai Dibaca</h2>
+    <ul id="belumSelesaiDibaca"></ul>
+
+    <h2>Selesai Dibaca</h2>
+    <ul id="selesaiDibaca"></ul>
+
+    <div class="footer">
+      Copyright ahmatfauzy
+    </div>
+    <br><br><br>
+    <script src="script.js"></script>
+
+
+  </body>
+</html>

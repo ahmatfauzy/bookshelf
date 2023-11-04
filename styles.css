@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #75adb4;
+}
+
+.container {
+  background-color: black;
+}
+
+h1 {
+  color: #fffefe;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 55%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#isFinished {
+  display: inline-block;
+  height: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #005f6b;
+}
+
+label[for="isFinished"] {
+  display: inline-block;
+  width: 100px; 
+}
+
+#isFinishedTombol {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+}
+
+button {
+  display: block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.footer {
+  background-color: black;
+  color: rgb(145, 145, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+}
+
+#selesaiDibaca {
+  color: rgb(0, 0, 0);
+  margin-right: 20px;
+}
+
+#belumSelesaiDibaca {
+  color: rgb(0, 0, 0);
+}
