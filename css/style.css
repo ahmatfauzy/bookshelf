@@ -1,0 +1,133 @@
+body {
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+button {
+  display: block;
+  margin-top: 5px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+button.move {
+  background-color: #28a745;
+}
+
+button.remove {
+  background-color: #dc3545;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  margin-top: 20px;
+  height: 40px;
+}
+
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  color: #555;
+}
+
+/* Button */
+button {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+/* Footer */
+footer {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input */
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Checkbox */
+#isFinishedTombol {
+  margin-bottom: 10px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
